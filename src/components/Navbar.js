@@ -67,8 +67,8 @@ export default function Navbar(props) {
                             placeholder="Search"
                             aria-label="Search"
                         />
-                        <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-                        <button className="btn btn-success mx-1" onClick={togleswritch}>{btntxt}</button>
+                        <button className="btn btn-outline-primary my-2 my-sm-0" type="button">Search</button>
+                        <button type="button" className="btn btn-success mx-1" onClick={togleswritch}>{btntxt}</button>
                     </form>
                 </div>
             </nav>
